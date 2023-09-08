@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'tp7-9';
+
+  piePag:String;
+
+  constructor(){
+    this.piePag= "De mis compañer@s solo de algunos se el nombre no de todos, por eso no puedo pasar información de ell@s"
+  }
 }
