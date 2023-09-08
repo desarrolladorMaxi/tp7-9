@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./inicio.component.css']
 })
 export class InicioComponent {
+  titulo:String;
 
+  constructor(){
+   this.titulo = "Bienvenidos a mi página de inicio usando interpolación!.";
+  }
 }
