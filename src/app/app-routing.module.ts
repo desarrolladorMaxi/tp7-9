@@ -6,7 +6,7 @@ import { GitComponent } from './componentes/git/git.component';
 import { TerminalesComponent } from './componentes/terminales/terminales.component';
 
 const routes: Routes = [
-  {path: 'inicio', component:InicioComponent},
+  {path: '', component:InicioComponent},
   {path: 'angular', component:AngularComponent},
   {path: 'git', component:GitComponent},
   {path: 'terminales', component:TerminalesComponent},
